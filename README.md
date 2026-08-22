@@ -54,6 +54,11 @@ This package provides logos for popular Iranian banks, including:
 - بانک کارآفرین — Karafarin Bank
 - بانک سینا — Sina Bank
 - بانک ایران زمین — Iran Zamin Bank
+- Khavar Mianeh bank — بانک خاورمیانه
+- Sarmayeh Bank — بانک سرمایه
+- Tose Saderat Iran Bank — بانک توسعه صادرات ایران
+- Karafarin New Bank — باک کار آفرین جدید
+- Iran va Venezuela — بانک مشترک ایران و ونزوئلا
 
 > The list of available banks may change as new logos are added to the package.
 
