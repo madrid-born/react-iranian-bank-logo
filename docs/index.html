@@ -1,30 +1,69 @@
 <!doctype html>
-<html lang="en">
+
+<html lang="fa">
 <head>
     <meta charset="utf-8"/>
     <meta name="viewport" content="width=device-width, initial-scale=1"/>
-    <meta name="google-site-verification" content="nro38TdpJg8p5v2eyjs0AFTNJm1BDRQPJIDJ-5Ri97E"/>
+    <meta name="google-site-verification"
+          content="nro38TdpJg8p5v2eyjs0AFTNJm1BDRQPJIDJ-5Ri97E"/>
     <link rel="icon" type="image/x-icon" href="favicon.ico"/>
-
-    <title>Iranian Bank Logos – Free SVG Icons Library | React Component</title>
-
+    <link rel="canonical"
+          href="https://cyberhuginn.github.io/react-iranian-bank-logo/"/>
+    <title>لوگو بانک های ایرانی | Iranian Bank Logos for React & Next.js</title>
     <meta name="description"
-          content="A fully free, open-source collection of Iranian bank logos in SVG format with a lightweight React component. available via npm."/>
+          content="مجموعه رایگان لوگو و آیکون بانک های ایرانی با فرمت SVG و کامپوننت React. مناسب برای React، Next.js، پروژه های بانکی و فین تک."/>
     <meta name="keywords"
-          content="Iran bank logo, Iranian bank logo,Iranian bank logos, bank svg icons iran, Iran bank logos react, bank icons Iran, svg bank logos Iran, react bank logo"/>
-
-    <meta property="og:title" content="Iranian Bank Logo React — Demo"/>
+          content="لوگو بانک های ایرانی, لوگو بانک ایرانی, لوگو بانک ملت, لوگو بانک ملی, لوگو بانک پاسارگاد, لوگو بانک صادرات, لوگو بانک تجارت, لوگو بانک سامان, لوگو بانک پارسیان, آیکون بانک ایرانی, آیکون بانک های ایران, لوگو بانک SVG, Iranian bank logos, Iranian bank logo, Iran bank logos, Iran bank icons, bank logo SVG, React bank logos, Next.js bank logos, React Iranian bank logo"/>
+    <meta name="author" content="CyberHuginn"/>
+    <!-- Open Graph -->
+    <meta property="og:title"
+          content="لوگو بانک های ایرانی | Iranian Bank Logos for React"/>
     <meta property="og:description"
-          content="Free Iranian bank SVG logos with a React component. Demo page."/>
+          content="مجموعه رایگان لوگو و آیکون بانک های ایرانی به صورت SVG، همراه با کامپوننت React برای React و Next.js."/>
+    <meta property="og:type" content="website"/>
+    <meta property="og:url"
+          content="https://cyberhuginn.github.io/react-iranian-bank-logo/"/>
     <meta property="og:image"
           content="https://raw.githubusercontent.com/cyberhuginn/react-iranian-bank-logo/main/banner.jpg"/>
-    <meta property="og:type" content="website"/>
-
+    <meta property="og:image:alt"
+          content="Iranian Bank Logos React"/>
+    <meta property="og:locale" content="fa_IR"/>
+    <!-- Twitter -->
+    <meta name="twitter:card" content="summary_large_image"/>
+    <meta name="twitter:title"
+          content="Iranian Bank Logos for React & Next.js"/>
+    <meta name="twitter:description"
+          content="Free Iranian bank logos and SVG icons for React and Next.js applications."/>
+    <meta name="twitter:image"
+          content="https://raw.githubusercontent.com/cyberhuginn/react-iranian-bank-logo/main/banner.jpg"/>
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+        {
+            "@context": "https://schema.org",
+            "@type": "SoftwareSourceCode",
+            "name": "react-iranian-bank-logo",
+            "description": "Iranian bank logos and SVG icons as React components for React and Next.js applications.",
+            "codeRepository": "https://github.com/cyberhuginn/react-iranian-bank-logo",
+            "programmingLanguage": [
+                "JavaScript",
+                "TypeScript",
+                "React"
+            ],
+            "runtimePlatform": "Node.js",
+            "license": "https://opensource.org/licenses/MIT",
+            "author": {
+                "@type": "Person",
+                "name": "CyberHuginn",
+                "url": "https://cyberhuginn.com"
+            },
+            "url": "https://cyberhuginn.github.io/react-iranian-bank-logo/"
+        }
+    </script>
     <style>
         body {
             margin: 0;
             padding: 24px;
-            font-family: Inter, system-ui, sans-serif;
+            font-family: Inter, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
             background: #f8fafc;
             color: #0f172a;
             line-height: 1.6;
@@ -48,10 +87,27 @@
             font-weight: 700;
         }
 
+        h2 {
+            color: #0f172a;
+        }
+
         .subtitle {
             color: #475569;
             font-size: 15px;
             margin-top: 6px;
+        }
+
+        .intro {
+            max-width: 800px;
+            margin: 24px auto 0;
+            text-align: center;
+            color: #475569;
+            font-size: 15px;
+        }
+
+        .intro-fa {
+            direction: rtl;
+            text-align: center;
         }
 
         .grid {
@@ -87,6 +143,13 @@
             font-weight: 600;
             font-size: 14px;
             margin-top: 6px;
+        }
+
+        .bank-name-fa {
+            direction: rtl;
+            color: #64748b;
+            font-size: 12px;
+            margin-top: 2px;
         }
 
         .copied {
@@ -126,46 +189,6 @@
             }
         }
 
-        @media (max-width: 500px) {
-            .github-corner svg {
-                width: 60px;
-                height: 60px;
-            }
-
-            .github-corner:hover .octo-arm {
-                animation: none;
-            }
-
-            .github-corner .octo-arm {
-                animation: octocat-wave 560ms ease-in-out;
-            }
-        }
-
-        .npm-badge {
-            display: inline-flex;
-            align-items: center;
-            gap: 8px;
-            background: white;
-            padding: 12px 20px;
-            border-radius: 12px;
-            text-decoration: none;
-            color: #0f172a;
-            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.06);
-            transition: transform .15s, box-shadow .15s;
-            margin: 32px auto;
-            font-weight: 600;
-        }
-
-        .npm-badge:hover {
-            transform: translateY(-2px);
-            box-shadow: 0 6px 14px rgba(0, 0, 0, 0.10);
-        }
-
-        .npm-badge svg {
-            width: 32px;
-            height: 32px;
-        }
-
         .links-section {
             text-align: center;
             margin: 40px 0;
@@ -185,10 +208,55 @@
         pre {
             background: #0f172a;
             color: #e6eef8;
-            padding: 12px;
+            padding: 16px;
             border-radius: 8px;
             overflow: auto;
-            font-size: 13px
+            font-size: 13px;
+        }
+
+        .content {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+
+        .section {
+            margin-top: 60px;
+        }
+
+        .section-fa {
+            direction: rtl;
+        }
+
+        .links {
+            display: flex;
+            justify-content: center;
+            gap: 16px;
+            flex-wrap: wrap;
+            margin-top: 24px;
+        }
+
+        .links a {
+            background: white;
+            padding: 10px 18px;
+            border-radius: 10px;
+            text-decoration: none;
+            color: #0f172a;
+            box-shadow: 0 3px 10px rgba(0, 0, 0, 0.05);
+        }
+
+        @media (max-width: 500px) {
+            .github-corner svg {
+                width: 60px;
+                height: 60px;
+            }
+
+            .github-corner:hover .octo-arm {
+                animation: none;
+            }
+
+            .github-corner .octo-arm {
+                animation: octocat-wave 560ms ease-in-out;
+            }
         }
 
         @media (max-width: 768px) {
@@ -216,129 +284,303 @@
         }
     </style>
 </head>
-
 <body>
-
 <a href="https://github.com/cyberhuginn/react-iranian-bank-logo" class="github-corner"
    aria-label="View source on GitHub" target="_blank" rel="noopener">
-    <svg viewBox="0 0 250 250" aria-hidden="true">
-        <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
-        <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
-              fill="currentColor" style="transform-origin: 130px 106px;" class="octo-arm"></path>
-        <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
-              fill="currentColor" class="octo-body"></path>
-    </svg>
+<svg viewBox="0 0 250 250" aria-hidden="true">
+    <path d="M0,0 L115,115 L130,115 L142,142 L250,250 L250,0 Z"></path>
+    <path d="M128.3,109.0 C113.8,99.7 119.0,89.6 119.0,89.6 C122.0,82.7 120.5,78.6 120.5,78.6 C119.2,72.0 123.4,76.3 123.4,76.3 C127.3,80.9 125.5,87.3 125.5,87.3 C122.9,97.6 130.6,101.9 134.4,103.2"
+          fill="currentColor"
+          style="transform-origin: 130px 106px;"
+          class="octo-arm"></path>
+    <path d="M115.0,115.0 C114.9,115.1 118.7,116.5 119.8,115.4 L133.7,101.6 C136.9,99.2 139.9,98.4 142.2,98.6 C133.8,88.0 127.5,74.4 143.8,58.0 C148.5,53.4 154.0,51.2 159.7,51.0 C160.3,49.4 163.2,43.6 171.4,40.1 C171.4,40.1 176.1,42.5 178.8,56.2 C183.1,58.6 187.2,61.8 190.9,65.4 C194.5,69.0 197.7,73.2 200.1,77.6 C213.8,80.2 216.3,84.9 216.3,84.9 C212.7,93.1 206.9,96.0 205.4,96.6 C205.1,102.4 203.0,107.8 198.3,112.5 C181.9,128.9 168.3,122.5 157.7,114.1 C157.9,116.9 156.7,120.9 152.7,124.9 L141.0,136.5 C139.8,137.7 141.6,141.9 141.8,141.8 Z"
+          fill="currentColor"
+          class="octo-body"></path>
+</svg>
 </a>
-
-<header style="margin-top: 40px;">
-    <div style="display: flex; align-items: center; justify-content: center; flex-direction: row">
-        <img src="https://raw.githubusercontent.com/cyberhuginn/react-iranian-bank-logo/main/docs/iranian-bank-react-logo.png" width="100%" height="100%"
-             alt="لوگو بانک های ایرانی" style="margin-right: 20px; width: 70px; height: 70px; margin-top: 15px">
-        <div>
-            <h1>Iranian Bank Logo React — Demo</h1>
-            <div class="subtitle">Free SVG Icons • React Component</div>
+<main class="content">
+    <header style="margin-top: 40px;">
+        <div style="display:flex;align-items:center;justify-content:center;gap:20px;">
+            <img
+                    src="https://raw.githubusercontent.com/cyberhuginn/react-iranian-bank-logo/main/docs/react-iranian-bank-logo.png"
+                    width="70"
+                    height="70"
+                    alt="لوگو بانک های ایرانی برای React"
+                    style="margin:0;width:70px;height:70px;"
+            />
+            <div>
+                <h1>Iranian Bank Logos for React & Next.js</h1>
+                <div class="subtitle">
+                    Free Iranian Bank SVG Icons & React Components
+                </div>
+            </div>
         </div>
-    </div>
+        <p class="intro intro-fa">
+            مجموعه‌ای رایگان از لوگو و آیکون بانک‌های ایرانی با فرمت SVG،
+            مناسب برای استفاده در پروژه‌های React و Next.js.
+        </p>
+        <p class="intro">
+            Use Iranian bank logos directly in your React and Next.js applications
+            with the <strong>react-iranian-bank-logo</strong> package.
+        </p>
+    </header>
+    <section class="section" dir="rtl">
+        <h2>لوگو بانک های ایرانی</h2>
+        <p class="section-fa">
+            در این صفحه می‌توانید لوگو و آیکون بانک‌های ایرانی را مشاهده کنید.
+            برای دریافت نام هر لوگو، روی آن کلیک کنید.
+            این آیکون‌ها به صورت SVG ارائه شده‌اند و می‌توانید از آن‌ها
+            در پروژه‌های وب، داشبورد، فروشگاه اینترنتی، اپلیکیشن‌های مالی
+            و پروژه‌های فین‌تک استفاده کنید.
+        </p>
+        <div id="icons-container" class="grid"></div>
+    </section>
+    <section class="section section-fa">
+        <h2>لوگو بانک های ایران برای React</h2>
+        <p>
+            پکیج <strong>react-iranian-bank-logo</strong> مجموعه‌ای از
+            لوگوهای بانک‌های ایرانی را به صورت کامپوننت React در اختیار
+            توسعه‌دهندگان قرار می‌دهد.
+        </p>
+        <p>
+            این کتابخانه برای پروژه‌های React و Next.js طراحی شده و
+            استفاده از لوگوهای بانک‌های ایران را در رابط کاربری ساده می‌کند.
+        </p>
+    </section>
+    <section class="section">
+        <h2>Usage (React)</h2>
 
-</header>
+        <p>
+            The package exports a lightweight React component for rendering
+            Iranian bank logos.
+        </p>
 
-<section style="margin-top: 50px;">
-    <div id="icons-container" class="grid"></div>
-</section>
+        <pre><code>import { IranianBank } from "react-iranian-bank-logo";
 
-
-<section style="margin-top:60px">
-    <h2 style="font-size:16px;margin-bottom:8px">Usage (React)</h2>
-    <p class="hint">The package exports a React component — example from README:</p>
-
-    <pre>
-    import { IranianBank } from "react-iranian-bank-logo";
-
-    export default function App() {
-        return (
-            &lt;div&gt;
-              &lt;IranianBank name="ir-mellat" size={40} /&gt;
-              &lt;IranianBank name="ir-pasargad" size={30} /&gt;
-            &lt;/div&gt;
-        );
-    }
-    </pre>
-</section>
-
-<section style="margin-top:60px; margin-bottom:100px">
-    <h2 style="font-size:16px;margin-bottom:8px">Package Source</h2>
-    <div>
-        <p class="hint">For full package details, documentation, and usage instructions, visit the NPM page:</p>
-        <a href="https://www.npmjs.com/package/react-iranian-bank-logo" target="_blank">
-            react-iranian-bank-logo
-        </a>
-    </div>
-</section>
-
-
+export default function App() {
+    return (
+        &lt;div&gt;
+            &lt;IranianBank name="ir-mellat" size={40} /&gt;
+            &lt;IranianBank name="ir-pasargad" size={30} /&gt;
+        &lt;/div&gt;
+    );
+}</code></pre>
+    </section>
+    <section class="section">
+        <h2>Available Bank Icons</h2>
+        <p>
+            The library includes SVG logos for popular Iranian banks.
+            New bank logos may be added over time.
+        </p>
+    </section>
+    <section class="section">
+        <h2>React & Next.js Package</h2>
+        <p>
+            Install the package from npm:
+        <pre>npm install react-iranian-bank-logo</pre>
+        </p>
+        <div class="links">
+            <a
+                    href="https://www.npmjs.com/package/react-iranian-bank-logo"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                npm Package
+            </a>
+            <a
+                    href="https://github.com/cyberhuginn/react-iranian-bank-logo"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                GitHub Repository
+            </a>
+        </div>
+    </section>
+    <section class="section section-fa">
+        <h2>درباره پروژه</h2>
+        <p>
+            این پروژه به صورت Open Source توسعه داده شده و هدف آن ارائه
+            یک مجموعه ساده و قابل استفاده از لوگوهای بانک‌های ایرانی
+            برای توسعه‌دهندگان وب است.
+        </p>
+        <p>
+            اگر لوگوی بانک خاصی در این مجموعه وجود ندارد یا مشکلی در
+            یکی از آیکون‌ها مشاهده کردید، می‌توانید از طریق GitHub
+            یک Issue یا Pull Request ایجاد کنید.
+        </p>
+    </section>
+    <section class="section">
+        <h2>Source & Documentation</h2>
+        <div class="links">
+            <a
+                    href="https://www.npmjs.com/package/react-iranian-bank-logo"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                npm
+            </a>
+            <a
+                    href="https://github.com/cyberhuginn/react-iranian-bank-logo"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                GitHub
+            </a>
+            <a
+                    href="https://github.com/cyberhuginn/react-iranian-bank-logo/releases"
+                    target="_blank"
+                    rel="noopener noreferrer">
+                Releases
+            </a>
+        </div>
+    </section>
+</main>
 <footer id="site-footer">
     © <span id="year"></span>
     Made with ❤️ by
-    <a href="https://cyberhuginn.com" target="_blank" style="color: inherit; text-decoration: none;">
+    <a
+            href="https://cyberhuginn.com"
+            target="_blank"
+            rel="noopener noreferrer"
+            style="color: inherit; text-decoration: none;">
         CyberHuginn
     </a>
 </footer>
-
 <script>
-    const now = new Date();
-    document.getElementById("year").textContent = now.getFullYear();
+    document.getElementById("year").textContent = new Date().getFullYear();
 </script>
 <script>
-    const icons = [
-        "ir-mellat",
-        "ir-melli",
-        "ir-pasargad",
-        "ir-blu",
-        "ir-day",
-        "ir-eghtesad-novin",
-        "ir-gardeshgari",
-        "ir-iranzamin",
-        "ir-karafarin",
-        "ir-keshavarzi",
-        "ir-markazi",
-        "ir-mehr",
-        "ir-parsian",
-        "ir-post-bank",
-        "ir-refah",
-        "ir-resalat",
-        "ir-saderat",
-        "ir-saman",
-        "ir-sanat-madan",
-        "ir-sepah",
-        "ir-shahr",
-        "ir-sina",
-        "ir-tejarat",
-        "ir-tose-taawon",
+    const banks = [
+        {
+            name: "ir-mellat",
+            fa: "بانک ملت"
+        },
+        {
+            name: "ir-melli",
+            fa: "بانک ملی ایران"
+        },
+        {
+            name: "ir-pasargad",
+            fa: "بانک پاسارگاد"
+        },
+        {
+            name: "ir-blu",
+            fa: "بلوبانک"
+        },
+        {
+            name: "ir-day",
+            fa: "بانک دی"
+        },
+        {
+            name: "ir-eghtesad-novin",
+            fa: "بانک اقتصاد نوین"
+        },
+        {
+            name: "ir-gardeshgari",
+            fa: "بانک گردشگری"
+        },
+        {
+            name: "ir-iranzamin",
+            fa: "بانک ایران زمین"
+        },
+        {
+            name: "ir-karafarin",
+            fa: "بانک کارآفرین"
+        },
+        {
+            name: "ir-keshavarzi",
+            fa: "بانک کشاورزی"
+        },
+        {
+            name: "ir-markazi",
+            fa: "بانک مرکزی"
+        },
+        {
+            name: "ir-mehr",
+            fa: "بانک مهر ایران"
+        },
+        {
+            name: "ir-parsian",
+            fa: "بانک پارسیان"
+        },
+        {
+            name: "ir-post-bank",
+            fa: "پست بانک ایران"
+        },
+        {
+            name: "ir-refah",
+            fa: "بانک رفاه کارگران"
+        },
+        {
+            name: "ir-resalat",
+            fa: "بانک قرض الحسنه رسالت"
+        },
+        {
+            name: "ir-saderat",
+            fa: "بانک صادرات ایران"
+        },
+        {
+            name: "ir-saman",
+            fa: "بانک سامان"
+        },
+        {
+            name: "ir-sanat-madan",
+            fa: "بانک صنعت و معدن"
+        },
+        {
+            name: "ir-sepah",
+            fa: "بانک سپه"
+        },
+        {
+            name: "ir-shahr",
+            fa: "بانک شهر"
+        },
+        {
+            name: "ir-sina",
+            fa: "بانک سینا"
+        },
+        {
+            name: "ir-tejarat",
+            fa: "بانک تجارت"
+        },
+        {
+            name: "ir-tose-taawon",
+            fa: "بانک توسعه تعاون"
+        }
     ];
-
     const container = document.getElementById("icons-container");
-
-    icons.forEach(name => {
+    banks.forEach(bank => {
         const card = document.createElement("div");
         card.className = "card";
-        card.dataset.name = name;
-
-        card.innerHTML = `
-      <img loading="lazy" src="https://raw.githubusercontent.com/cyberhuginn/react-iranian-bank-logo/main/icons/${name}.svg" alt="${name}">
-      <div class="label">${name}</div>
-      <div class="copied">Copied!</div>
-    `;
-
-        card.onclick = () => {
-            navigator.clipboard.writeText(name);
-            const copied = card.querySelector(".copied");
-            copied.style.display = "block";
-            setTimeout(() => copied.style.display = "none", 1200);
+        card.dataset.name = bank.name;
+        const img = document.createElement("img");
+        img.loading = "lazy";
+        img.src =
+            `https://raw.githubusercontent.com/cyberhuginn/react-iranian-bank-logo/main/icons/${bank.name}.svg`;
+        img.alt = `${bank.fa} - ${bank.name} Iranian bank logo SVG`;
+        img.title = `${bank.fa} - ${bank.name}`;
+        const label = document.createElement("div");
+        label.className = "label";
+        label.textContent = bank.name;
+        const bankNameFa = document.createElement("div");
+        bankNameFa.className = "bank-name-fa";
+        bankNameFa.textContent = bank.fa;
+        const copied = document.createElement("div");
+        copied.className = "copied";
+        copied.textContent = "Copied!";
+        card.appendChild(img);
+        card.appendChild(label);
+        card.appendChild(bankNameFa);
+        card.appendChild(copied);
+        card.onclick = async () => {
+            try {
+                await navigator.clipboard.writeText(bank.name);
+                copied.style.display = "block";
+                setTimeout(() => {
+                    copied.style.display = "none";
+                }, 1200);
+            } catch (error) {
+                console.error("Could not copy icon name:", error);
+            }
         };
-
         container.appendChild(card);
     });
 </script>
-
 </body>
 </html>
