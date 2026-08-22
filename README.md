@@ -1,7 +1,7 @@
 # React Iranian Bank Logos — لوگو بانک های ایرانی
 
 [![npm](https://img.shields.io/npm/v/react-iranian-bank-logo)](https://www.npmjs.com/package/react-iranian-bank-logo)
-![React](https://img.shields.io/badge/React-17%2B-61DAFB.svg)
+![React](https://img.shields.io/badge/React-18%2B-61DAFB.svg)
 ![Next.js](https://img.shields.io/badge/Next.js-Compatible-000000.svg)
 ![TypeScript](https://img.shields.io/badge/TypeScript-Supported-3178C6.svg)
 [![Releases](https://img.shields.io/github/v/release/cyberhuginn/react-iranian-bank-logo)](https://github.com/cyberhuginn/react-iranian-bank-logo/releases)
