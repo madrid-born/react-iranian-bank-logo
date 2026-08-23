@@ -3,21 +3,21 @@
 
     <!-- Main project page -->
     <url>
-        <loc>https://cyberhuginn.github.io/iranian-bank-logo-react/</loc>
+        <loc>https://cyberhuginn.github.io/react-iranian-bank-logo/</loc>
         <priority>1.0</priority>
         <changefreq>weekly</changefreq>
     </url>
 
     <!-- NPM Package page -->
     <url>
-        <loc>https://www.npmjs.com/package/iranian-bank-logo-react</loc>
+        <loc>https://www.npmjs.com/package/react-iranian-bank-logo</loc>
         <priority>0.8</priority>
         <changefreq>monthly</changefreq>
     </url>
 
     <!-- GitHub Repository -->
     <url>
-        <loc>https://github.com/cyberhuginn/iranian-bank-logo-react</loc>
+        <loc>https://github.com/cyberhuginn/react-iranian-bank-logo</loc>
         <priority>0.7</priority>
         <changefreq>monthly</changefreq>
     </url>

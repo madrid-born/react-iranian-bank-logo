@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://cyberhuginn.github.io/iranian-bank-logo-react/sitemap.xml
+Sitemap: https://cyberhuginn.github.io/react-iranian-bank-logo/sitemap.xml
